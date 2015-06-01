@@ -19,7 +19,7 @@ void detect_and_draw(IplImage* img){
  IplImage* gray=img;
 
 
- //baca file xml u/ image detection
+ //read file xml for image detection
  
  if(!cascade){
  
