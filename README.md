@@ -1,17 +1,16 @@
 
 
 
-
-
-
-
 #include "stdafx.h"
 #include "cv.h"
 #include "highgui.h"
 
 //function for face detection 
+
 void detect_and_draw(IplImage* img){
+
  //initialize
+ 
  CvHaarClassifierCascade *cascade=0;
  CvMemStorage *storage=0;
 
